@@ -1,3 +1,10 @@
+// Variables
+
+$main-color: rgb(41, 171, 226)
+$main-color-transparent: rgba(41, 171, 226, 0.5)
+$krona-one: krona-one, sans-serif
+
+
 // Mixins
 =flexify
     display: -webkit-box
@@ -17,6 +24,7 @@ html, body
     width: 100%
     margin: 0
     padding: 0
+    overflow-x: hidden
 header
     +flexify
     flex-direction: column
@@ -34,9 +42,28 @@ header
         width: 50%
     h1
         position: absolute
-        bottom: 0px
+        bottom: 0rem
         text-align: center
         color: white
-        background-color: rgba(41, 171, 226, 0.5)
+        background-color: $main-color-transparent
         margin: 0
+        padding: 1rem
         width: 100%
+        font-family: $krona-one
+        font-size: 3.5rem
+        
+section
+    margin: 7rem 0 7rem
+    h2
+        text-align: center
+        margin-bottom: 1.2rem
+        font-family: $krona-one
+        font-size: 2.5rem
+    hr
+        margin-top: 0
+        margin-bottom: 3.5rem
+        border-color: $main-color
+        border-width: 0.1rem
+        width: 15%
+        
+        
