@@ -1,4 +1,4 @@
-/* line 23, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+/* line 27, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
 html, body {
   width: 100%;
   margin: 0;
@@ -6,7 +6,7 @@ html, body {
   overflow-x: hidden;
 }
 
-/* line 28, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+/* line 32, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
 header {
   display: -webkit-box;
   display: -moz-box;
@@ -26,12 +26,12 @@ header {
   background-size: cover;
 }
 
-/* line 41, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+/* line 45, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
 header img {
   width: 50%;
 }
 
-/* line 43, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+/* line 47, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
 header h1 {
   position: absolute;
   bottom: 0rem;
@@ -45,12 +45,12 @@ header h1 {
   font-size: 3.5rem;
 }
 
-/* line 55, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+/* line 59, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
 section {
   margin: 7rem 0 7rem;
 }
 
-/* line 57, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+/* line 61, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
 section h2 {
   text-align: center;
   margin-bottom: 1.2rem;
@@ -58,7 +58,7 @@ section h2 {
   font-size: 2.5rem;
 }
 
-/* line 62, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+/* line 66, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
 section hr {
   margin-top: 0;
   margin-bottom: 3.5rem;
@@ -67,59 +67,65 @@ section hr {
   width: 15%;
 }
 
-/* line 69, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+/* line 73, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
 #services h3 {
   font-family: krona-one, sans-serif;
   font-size: 2rem;
   margin-bottom: 1rem;
 }
 
-/* line 73, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+/* line 77, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
 #services img {
   display: inline-block;
-  width: 27%;
+  width: 10rem;
+  max-height: 10rem;
   height: auto;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -webkit-box-sizing-box-sizing: border-box;
+  padding: 2rem;
   background-color: #29abe2;
 }
 
-/* line 78, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+/* line 87, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
 #services .text-container {
   display: inline-block;
   width: 70%;
   font-size: 1.5rem;
+  font-family: Arial;
 }
 
-/* line 82, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+/* line 92, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
 #services .text-container.left {
   float: right;
   text-align: left;
 }
 
-/* line 85, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+/* line 95, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
 #services .text-container.right {
   float: left;
   text-align: right;
 }
 
-/* line 89, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+/* line 99, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
 #services img.left {
   float: left;
 }
 
-/* line 91, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+/* line 101, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
 #services img.right {
   float: right;
 }
 
 @media (max-width: 1100px) {
-  /* line 96, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+  /* line 106, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
   #services img {
     float: none;
     display: block;
     margin: 0 auto 1rem;
     width: 25%;
   }
-  /* line 101, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+  /* line 111, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
   #services .text-container {
     float: none;
     display: block;
