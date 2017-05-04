@@ -76,7 +76,8 @@ section
         margin-bottom: 1rem
     img
         // the image is a square.
-        $img-height: 10rem
+        $img-height: 10.5rem
+        $img-border-radius: 25%
         display: inline-block
         width: $img-height
         max-height: $img-height
@@ -84,23 +85,29 @@ section
         +border-box
         padding: 2rem
         background-color: $main-color
+        margin: 0
+        &.left
+            float: left
+            border-top-left-radius: $img-border-radius
+            border-bottom-right-radius: $img-border-radius            
+        &.right
+            float: right
+            border-bottom-left-radius: $img-border-radius
+            border-top-right-radius: $img-border-radius
     .text-container
         display: inline-block
         width: 70%
         font-size: 1.5rem;
         font-family: Arial
+        margin-bottom: 3rem
+        p
+            color: gray
         &.left
             float: right
             text-align: left
         &.right
             float: left
-            text-align: right
-    img
-        &.left
-            float: left
-        &.right
-            float: right
-    
+            text-align: right  
 @media (max-width: 1100px)
     #services
         img
@@ -112,5 +119,7 @@ section
             float: none
             display: block
             width: 100%
-
-        
+// Trebol is the second image in services, it needs a slightly
+// smaller padding than the rest.
+#trebol
+    //padding: 0.4 !important
