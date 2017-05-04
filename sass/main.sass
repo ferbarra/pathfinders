@@ -1,0 +1,42 @@
+// Mixins
+=flexify
+    display: -webkit-box
+    display: -moz-box
+    display: -ms-flexbox
+    display: -webkit-flex
+    display: flex
+=round-corners
+    border-radius: 1rem
+=center-block
+    display: block
+    margin-left: auto
+    margin-right: auto
+
+
+html, body
+    width: 100%
+    margin: 0
+    padding: 0
+header
+    +flexify
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    width: 100%
+    height: 100vh
+    position: relative
+    background-image: url(../images/compressed/mountainlake-min.jpg)
+    background-position: left
+    background-repeat: no-repeat
+    background-attachment: fixed
+    background-size: cover
+    img
+        width: 50%
+    h1
+        position: absolute
+        bottom: 0px
+        text-align: center
+        color: white
+        background-color: #29ABE2
+        margin: 0
+        width: 100%
