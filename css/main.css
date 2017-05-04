@@ -67,4 +67,64 @@ section hr {
   width: 15%;
 }
 
+/* line 69, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+#services h3 {
+  font-family: krona-one, sans-serif;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* line 73, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+#services img {
+  display: inline-block;
+  width: 27%;
+  height: auto;
+  background-color: #29abe2;
+}
+
+/* line 78, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+#services .text-container {
+  display: inline-block;
+  width: 70%;
+  font-size: 1.5rem;
+}
+
+/* line 82, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+#services .text-container.left {
+  float: right;
+  text-align: left;
+}
+
+/* line 85, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+#services .text-container.right {
+  float: left;
+  text-align: right;
+}
+
+/* line 89, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+#services img.left {
+  float: left;
+}
+
+/* line 91, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+#services img.right {
+  float: right;
+}
+
+@media (max-width: 1100px) {
+  /* line 96, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+  #services img {
+    float: none;
+    display: block;
+    margin: 0 auto 1rem;
+    width: 25%;
+  }
+  /* line 101, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+  #services .text-container {
+    float: none;
+    display: block;
+    width: 100%;
+  }
+}
+
 /*# sourceMappingURL=../css/main.map */
