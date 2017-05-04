@@ -144,4 +144,13 @@ section hr {
   }
 }
 
+/* line 126, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+#why-us {
+  background-image: url(../images/compressed/valley-min.jpg);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 /*# sourceMappingURL=../css/main.map */
