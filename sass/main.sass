@@ -15,9 +15,9 @@ $krona-one: krona-one, sans-serif
 =round-corners
     border-radius: 1rem
 =center-block
-    display: block
-    margin-left: auto
-    margin-right: auto
+    display: block !important
+    margin-left: auto !important
+    margin-right: auto !important
 =border-box
     -moz-box-sizing: border-box 
     -webkit-box-sizing: border-box 
@@ -111,13 +111,14 @@ section
 @media (max-width: 1100px)
     #services
         img
-            float: none
-            display: block
-            margin: 0 auto 1rem
-            width: 25%
+            float: none !important
+            +center-block
+            margin-top: 0
+            margin-bottom: 1rem
+            border-radius: 25%
         .text-container
             float: none
-            display: block
+            text-align: center !important
             width: 100%
 // Trebol is the second image in services, it needs a slightly
 // smaller padding than the rest.
