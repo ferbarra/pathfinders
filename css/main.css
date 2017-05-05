@@ -47,7 +47,7 @@ header h1 {
 
 /* line 59, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
 section {
-  margin: 7rem 0 7rem;
+  padding: 7rem 0 7rem;
 }
 
 /* line 61, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
@@ -151,6 +151,33 @@ section hr {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+}
+
+/* line 132, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+#why-us .slide {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -webkit-box-sizing-box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 2rem 0 2rem;
+  border-radius: 2rem;
+  width: 90%;
+}
+
+/* line 138, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+#why-us .slide img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 140, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+#why-us .slide h4 {
+  text-align: center;
+  margin-bottom: 0;
+  font-family: krona-one, sans-serif;
+  font-size: 2rem;
+  color: black;
 }
 
 /*# sourceMappingURL=../css/main.map */
