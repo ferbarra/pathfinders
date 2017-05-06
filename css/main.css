@@ -285,23 +285,55 @@ section hr {
   padding: 0.5rem;
 }
 
-/* line 197, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+@media (max-width: 1150px) {
+  /* line 187, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+  #portfolio .date {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+}
+
+/* line 202, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
 #portfolio h3 {
   text-align: left;
 }
 
-/* line 199, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+/* line 204, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
 #portfolio p {
   color: gray;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.7rem;
   font-size: 1.4rem;
 }
 
-/* line 203, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+/* line 208, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
 #portfolio img {
   margin: 0;
   width: 85%;
   float: right;
+}
+
+@media (max-width: 1150px) {
+  /* line 208, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+  #portfolio img {
+    width: 100%;
+  }
+}
+
+/* line 215, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+#portfolio a {
+  font-family: krona, sans-serif;
+  border-radius: 0;
+  border-bottom-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  background-color: #29abe2;
+}
+
+/* line 221, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+#portfolio a:hover {
+  color: #29abe2;
+  background-color: white;
+  border-color: #29abe2;
 }
 
 /*# sourceMappingURL=../css/main.map */

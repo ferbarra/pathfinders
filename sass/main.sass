@@ -194,13 +194,32 @@ section
         text-align: center
         +border-box
         padding: 0.5rem
+        @media (max-width: 1150px)
+            float:none
+            width: 100%
+            text-align: center
+            margin-bottom: 2rem
     h3
         text-align: left
     p
         color: gray
-        margin-bottom: 0.5rem
+        margin-bottom: 0.7rem
         font-size: 1.4rem
     img
         margin: 0
         width: 85%
         float: right
+        @media (max-width: 1150px)
+            float:none
+            width: 100%
+    a
+        font-family: $krona
+        border-radius: 0
+        border-bottom-left-radius: 2rem
+        border-top-right-radius: 2rem
+        background-color: $main-color
+        &:hover
+            color: $main-color
+            background-color: white
+            border-color: $main-color
+        
