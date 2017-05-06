@@ -20,7 +20,7 @@ header {
   height: 100vh;
   position: relative;
   background-image: url(../images/compressed/mountainlake-min.jpg);
-  background-position: left;
+  background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -198,6 +198,21 @@ section hr {
   text-align: center;
   margin-bottom: 4rem;
   font-size: 1.5rem;
+}
+
+/* line 157, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+#online-presence {
+  background-image: url(../images/compressed/canopy-min.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}
+
+/* line 164, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+#online-presence span {
+  color: #29abe2;
 }
 
 /*# sourceMappingURL=../css/main.map */
