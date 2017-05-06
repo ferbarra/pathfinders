@@ -167,20 +167,23 @@ section hr {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -webkit-box-sizing-box-sizing: border-box;
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
   background-color: rgba(255, 255, 255, 0.7);
   padding: 2rem 0 2rem;
   border-radius: 2rem;
   width: 90%;
 }
 
-/* line 143, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+/* line 144, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
 #why-us .slide img {
   display: block !important;
   margin-left: auto !important;
   margin-right: auto !important;
 }
 
-/* line 145, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+/* line 146, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
 #why-us .slide h4 {
   text-align: center;
   margin-bottom: 0;
@@ -189,7 +192,7 @@ section hr {
   color: black;
 }
 
-/* line 152, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+/* line 153, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
 #webdev img {
   display: block !important;
   margin-left: auto !important;
@@ -197,7 +200,7 @@ section hr {
   margin-bottom: 2rem;
 }
 
-/* line 155, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+/* line 156, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
 #webdev p {
   color: gray;
   text-align: center;
@@ -205,7 +208,7 @@ section hr {
   font-size: 1.5rem;
 }
 
-/* line 160, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+/* line 161, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
 #online-presence {
   background-image: url(../images/compressed/canopy-min.jpg);
   background-position: center;
@@ -216,18 +219,18 @@ section hr {
   font-family: krona, sans-serif;
 }
 
-/* line 168, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+/* line 169, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
 #online-presence .first {
   font-size: 2rem;
 }
 
-/* line 170, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+/* line 171, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
 #online-presence .second {
   font-size: 5rem;
   margin-bottom: 0;
 }
 
-/* line 173, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+/* line 174, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
 #online-presence span {
   color: #29abe2;
 }
