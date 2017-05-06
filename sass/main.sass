@@ -2,7 +2,7 @@
 
 $main-color: rgb(41, 171, 226)
 $main-color-transparent: rgba(41, 171, 226, 0.5)
-$krona-one: krona-one, sans-serif
+$krona: krona, sans-serif
 
 
 // Mixins
@@ -23,7 +23,10 @@ $krona-one: krona-one, sans-serif
     -webkit-box-sizing: border-box 
      box-sizing: border-box
 
-
+// Local fonts:
+@font-face
+    font-family: krona
+    src: url(../fonts/KronaOne-Regular.ttf)
 html, body
     width: 100%
     margin: 0
@@ -53,7 +56,7 @@ header
         margin: 0
         padding: 1rem
         width: 100%
-        font-family: $krona-one
+        font-family: $krona
         font-size: 3.5rem
         
 section
@@ -61,10 +64,10 @@ section
     h2
         text-align: center
         margin-bottom: 1.2rem
-        font-family: $krona-one
+        font-family: $krona
         font-size: 2.5rem
     h3
-        font-family: $krona-one
+        font-family: $krona
         font-size: 2rem
         margin-bottom: 1rem
         text-align: center
@@ -142,7 +145,7 @@ section
         h4
             text-align: center
             margin-bottom: 0
-            font-family: $krona-one
+            font-family: $krona
             font-size: 2rem
             color: black
 #webdev
@@ -161,5 +164,11 @@ section
     background-attachment: fixed
     background-size: cover
     color: white
+    font-family: $krona
+    .first
+        font-size: 2rem
+    .second
+        font-size: 5rem
+        margin-bottom: 0
     span
         color: $main-color
