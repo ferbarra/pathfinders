@@ -271,6 +271,11 @@ section hr {
 }
 
 /* line 187, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+#portfolio .row {
+  margin-bottom: 3.5rem;
+}
+
+/* line 189, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
 #portfolio .date {
   width: 15%;
   background-color: #29abe2;
@@ -286,7 +291,7 @@ section hr {
 }
 
 @media (max-width: 1150px) {
-  /* line 187, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+  /* line 189, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
   #portfolio .date {
     width: 100%;
     text-align: center;
@@ -294,19 +299,19 @@ section hr {
   }
 }
 
-/* line 202, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+/* line 204, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
 #portfolio h3 {
   text-align: left;
 }
 
-/* line 204, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+/* line 206, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
 #portfolio p {
   color: gray;
   margin-bottom: 0.7rem;
   font-size: 1.4rem;
 }
 
-/* line 208, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+/* line 210, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
 #portfolio img {
   margin: 0;
   width: 85%;
@@ -314,13 +319,13 @@ section hr {
 }
 
 @media (max-width: 1150px) {
-  /* line 208, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+  /* line 210, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
   #portfolio img {
     width: 100%;
   }
 }
 
-/* line 215, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+/* line 217, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
 #portfolio a {
   font-family: krona, sans-serif;
   border-radius: 0;
@@ -329,7 +334,7 @@ section hr {
   background-color: #29abe2;
 }
 
-/* line 221, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+/* line 223, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
 #portfolio a:hover {
   color: #29abe2;
   background-color: white;
