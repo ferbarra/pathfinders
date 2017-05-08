@@ -403,40 +403,96 @@ section hr {
 }
 
 /* line 259, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
-#reach-out #form-container input, #reach-out #form-container textarea {
+#reach-out #form-container form {
+  margin-bottom: 5rem;
+}
+
+/* line 261, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+#reach-out #form-container form input, #reach-out #form-container form textarea {
   font-family: krona, sans-serif;
   border-radius: 0;
   margin-bottom: 0.2rem;
 }
 
-/* line 263, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
-#reach-out #form-container input:hover, #reach-out #form-container input:active, #reach-out #form-container input:focus, #reach-out #form-container textarea:hover, #reach-out #form-container textarea:active, #reach-out #form-container textarea:focus {
+/* line 265, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+#reach-out #form-container form input:hover, #reach-out #form-container form input:active, #reach-out #form-container form input:focus, #reach-out #form-container form textarea:hover, #reach-out #form-container form textarea:active, #reach-out #form-container form textarea:focus {
   border-color: white;
 }
 
-/* line 265, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
-#reach-out #form-container input:hover, #reach-out #form-container textarea:hover {
+/* line 267, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+#reach-out #form-container form input:hover, #reach-out #form-container form textarea:hover {
   color: black;
 }
 
-/* line 268, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
-#reach-out #form-container input:hover::-webkit-input-placeholder, #reach-out #form-container textarea:hover::-webkit-input-placeholder {
+/* line 270, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+#reach-out #form-container form input:hover::-webkit-input-placeholder, #reach-out #form-container form textarea:hover::-webkit-input-placeholder {
   color: black;
 }
 
-/* line 271, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
-#reach-out #form-container input:hover::-moz-placeholder, #reach-out #form-container textarea:hover::-moz-placeholder {
+/* line 273, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+#reach-out #form-container form input:hover::-moz-placeholder, #reach-out #form-container form textarea:hover::-moz-placeholder {
   color: black;
 }
 
-/* line 274, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
-#reach-out #form-container input:hover:-ms-input-placeholder, #reach-out #form-container textarea:hover:-ms-input-placeholder {
+/* line 276, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+#reach-out #form-container form input:hover:-ms-input-placeholder, #reach-out #form-container form textarea:hover:-ms-input-placeholder {
   color: black;
 }
 
-/* line 277, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
-#reach-out #form-container input:hover:-moz-placeholder, #reach-out #form-container textarea:hover:-moz-placeholder {
+/* line 279, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+#reach-out #form-container form input:hover:-moz-placeholder, #reach-out #form-container form textarea:hover:-moz-placeholder {
   color: black;
+}
+
+/* line 281, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+#reach-out #form-container form input[type="submit"] {
+  background-color: transparent;
+  border-color: white;
+  color: white;
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 100%;
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+/* line 289, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+#reach-out #form-container form input[type="submit"]:hover {
+  background-color: rgba(156, 163, 157, 0.5);
+}
+
+/* line 291, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+#reach-out #form-container h6, #reach-out #form-container p {
+  color: white;
+  font-family: krona, sans-serif;
+  text-align: center;
+}
+
+/* line 295, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+#reach-out #form-container h6 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* line 298, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+#reach-out #form-container p {
+  font-size: 2.5rem;
+}
+
+/* line 300, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+footer {
+  text-align: center;
+  color: black;
+  font-family: krona, sans-serif;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* line 306, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+footer h1 {
+  font-size: 1.2rem;
+  margin: 0;
 }
 
 /*# sourceMappingURL=../css/main.map */

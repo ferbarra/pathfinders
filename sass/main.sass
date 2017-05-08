@@ -256,24 +256,54 @@ section
         padding-bottom: 5rem
         margin-bottom: 0
         border-color: white
-        input, textarea
-            font-family: $krona
-            border-radius: 0
-            margin-bottom: 0.2rem
-            &:hover, &:active, &:focus
+        form
+            margin-bottom: 5rem
+            input, textarea
+                font-family: $krona
+                border-radius: 0
+                margin-bottom: 0.2rem
+                &:hover, &:active, &:focus
+                    border-color: white
+                &:hover
+                    color: black
+                    //Chrome/Opera/Safari
+                    &::-webkit-input-placeholder
+                        color: black
+                    //Firefox 19+
+                    &::-moz-placeholder
+                        color: black
+                    //IE 10+
+                    &:-ms-input-placeholder
+                        color: black
+                    //Firefox 18-
+                    &:-moz-placeholder
+                        color: black
+            input[type="submit"]
+                background-color: transparent
                 border-color: white
-            &:hover
-                color: black
-                //Chrome/Opera/Safari
-                &::-webkit-input-placeholder
-                    color: black
-                //Firefox 19+
-                &::-moz-placeholder
-                    color: black
-                //IE 10+
-                &:-ms-input-placeholder
-                    color: black
-                //Firefox 18-
-                &:-moz-placeholder
-                    color: black   
-    
+                color: white
+                +center-block
+                width: 100%
+                margin-top: 0
+                font-size: 1.5rem
+                &:hover
+                    background-color: rgba(156, 163, 157, 0.5)
+        h6,p
+            color: white
+            font-family: $krona
+            text-align: center
+        h6
+            font-size: 1.5rem
+            margin-bottom: 1rem
+        p
+            font-size: 2.5rem
+footer
+    text-align: center
+    color: black
+    font-family: $krona
+    margin-top: 2rem
+    margin-bottom: 2rem
+    h1
+        font-size: 1.2rem
+        margin: 0
+        
