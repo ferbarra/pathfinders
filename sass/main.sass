@@ -244,5 +244,36 @@ section
             width: 90%
         @media (max-width: 400px)
             width: 100%
-    
+#reach-out
+    padding-bottom: 0
+    #form-container
+        background-image: url(../images/compressed/forestfog-min.jpg)
+        background-position: center
+        background-repeat: no-repeat
+        background-attachment: fixed
+        background-size: cover
+        padding-top: 5rem
+        padding-bottom: 5rem
+        margin-bottom: 0
+        border-color: white
+        input, textarea
+            font-family: $krona
+            border-radius: 0
+            margin-bottom: 0.2rem
+            &:hover, &:active, &:focus
+                border-color: white
+            &:hover
+                color: black
+                //Chrome/Opera/Safari
+                &::-webkit-input-placeholder
+                    color: black
+                //Firefox 19+
+                &::-moz-placeholder
+                    color: black
+                //IE 10+
+                &:-ms-input-placeholder
+                    color: black
+                //Firefox 18-
+                &:-moz-placeholder
+                    color: black   
     

@@ -384,4 +384,59 @@ section hr {
   }
 }
 
+/* line 247, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+#reach-out {
+  padding-bottom: 0;
+}
+
+/* line 249, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+#reach-out #form-container {
+  background-image: url(../images/compressed/forestfog-min.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  margin-bottom: 0;
+  border-color: white;
+}
+
+/* line 259, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+#reach-out #form-container input, #reach-out #form-container textarea {
+  font-family: krona, sans-serif;
+  border-radius: 0;
+  margin-bottom: 0.2rem;
+}
+
+/* line 263, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+#reach-out #form-container input:hover, #reach-out #form-container input:active, #reach-out #form-container input:focus, #reach-out #form-container textarea:hover, #reach-out #form-container textarea:active, #reach-out #form-container textarea:focus {
+  border-color: white;
+}
+
+/* line 265, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+#reach-out #form-container input:hover, #reach-out #form-container textarea:hover {
+  color: black;
+}
+
+/* line 268, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+#reach-out #form-container input:hover::-webkit-input-placeholder, #reach-out #form-container textarea:hover::-webkit-input-placeholder {
+  color: black;
+}
+
+/* line 271, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+#reach-out #form-container input:hover::-moz-placeholder, #reach-out #form-container textarea:hover::-moz-placeholder {
+  color: black;
+}
+
+/* line 274, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+#reach-out #form-container input:hover:-ms-input-placeholder, #reach-out #form-container textarea:hover:-ms-input-placeholder {
+  color: black;
+}
+
+/* line 277, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+#reach-out #form-container input:hover:-moz-placeholder, #reach-out #form-container textarea:hover:-moz-placeholder {
+  color: black;
+}
+
 /*# sourceMappingURL=../css/main.map */
