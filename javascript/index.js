@@ -23,6 +23,31 @@ $(document).ready(function() {
             }
         ],
     });
+    
+    $('#submit').click(function(e) {
+        e.preventDefault();
+        var name = $('#name').val();
+        var email = $("#email").val();
+        var message = $("#message").val();
+        $("#status").empty();
+        
+        // Check if the fields are empty.
+        if (email === "" || message === "") {
+            alert("Please fill required fields");
+        } else {
+            // Returns successful data submission message
+            $.post("../php/contact.php", {
+                sender_name: name,
+                sender_email: email,
+                sender_message: message
+            }, function(data) {
+                $("#status").append(data);
+                if (data == "We have received your email") {
+                    $("form")[0].reset();
+                }
+            });
+        }
+    });
 });
 
 $(window).on('resize', function() {
