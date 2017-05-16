@@ -32,7 +32,7 @@ $(document).ready(function() {
         $("#status").empty();
         
         // Check if the fields are empty.
-        if (email === "" || message === "") {
+        if (name === "" || email === "" || message === "") {
             alert("Please fill required fields");
         } else {
             // Returns successful data submission message
