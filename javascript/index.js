@@ -24,6 +24,17 @@ $(document).ready(function() {
         ],
     });
     
+    $('#read-more').click(function(e) {
+        var extraItems = $('#portfolio').find('.extra');
+        if (extraItems.css('display') === 'none') {
+            extraItems.css('display', 'block');
+            $('#read-more').html('SHOW LESS');
+        } else {
+            extraItems.css('display', 'none');
+            $('#read-more').html('SHOW MORE');
+        }
+    });
+
     $('#submit').click(function(e) {
         e.preventDefault();
         var name = $('#name').val();

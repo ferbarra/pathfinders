@@ -1,17 +1,12 @@
 @font-face {
   font-family: krona;
-  src: url(../fonts/KronaOne-Regular.ttf);
-}
-
-/* line 30, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+  src: url(../fonts/KronaOne-Regular.ttf); }
 html, body {
   width: 100%;
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
-}
+  overflow-x: hidden; }
 
-/* line 35, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
 header {
   display: -webkit-box;
   display: -moz-box;
@@ -28,94 +23,55 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
-}
-
-/* line 48, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
-header img {
-  width: 50%;
-}
-
-@media (max-width: 900px) {
-  /* line 48, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+  background-size: cover; }
   header img {
-    width: 70%;
-  }
-}
-
-@media (max-width: 900px) {
-  /* line 48, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
-  header img {
-    width: 80%;
-  }
-}
-
-/* line 54, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
-header h1 {
-  position: absolute;
-  bottom: 0rem;
-  text-align: center;
-  color: white;
-  background-color: rgba(41, 171, 226, 0.5);
-  margin: 0;
-  padding: 1rem;
-  width: 100%;
-  font-family: krona, sans-serif;
-  font-size: 3.5rem;
-}
-
-@media (max-width: 1080px) {
-  /* line 54, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+    width: 50%; }
+    @media (max-width: 900px) {
+      header img {
+        width: 70%; } }
+    @media (max-width: 900px) {
+      header img {
+        width: 80%; } }
   header h1 {
-    font-size: 3rem;
-  }
-}
+    position: absolute;
+    bottom: 0rem;
+    text-align: center;
+    color: white;
+    background-color: rgba(41, 171, 226, 0.5);
+    margin: 0;
+    padding: 1rem;
+    width: 100%;
+    font-family: krona, sans-serif;
+    font-size: 3.5rem; }
+    @media (max-width: 1080px) {
+      header h1 {
+        font-size: 3rem; } }
+    @media (max-width: 900px) {
+      header h1 {
+        font-size: 2.5rem; } }
+    @media (max-width: 900px) {
+      header h1 {
+        font-size: 2rem; } }
 
-@media (max-width: 900px) {
-  /* line 54, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
-  header h1 {
-    font-size: 2.5rem;
-  }
-}
-
-@media (max-width: 900px) {
-  /* line 54, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
-  header h1 {
-    font-size: 2rem;
-  }
-}
-
-/* line 72, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
 section {
-  padding: 7rem 0 7rem;
-}
+  padding: 7rem 0 7rem; }
+  section h2 {
+    text-align: center;
+    margin-bottom: 1.2rem;
+    font-family: krona, sans-serif;
+    font-size: 2.5rem; }
+  section h3 {
+    font-family: krona, sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center; }
+  section hr {
+    margin-top: 0;
+    margin-bottom: 3.5rem;
+    border-color: #29abe2;
+    border-width: 0.1rem;
+    width: 15%; }
 
-/* line 74, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
-section h2 {
-  text-align: center;
-  margin-bottom: 1.2rem;
-  font-family: krona, sans-serif;
-  font-size: 2.5rem;
-}
-
-/* line 79, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
-section h3 {
-  font-family: krona, sans-serif;
-  font-size: 2rem;
-  margin-bottom: 1rem;
-  text-align: center;
-}
-
-/* line 84, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
-section hr {
-  margin-top: 0;
-  margin-bottom: 3.5rem;
-  border-color: #29abe2;
-  border-width: 0.1rem;
-  width: 15%;
-}
-
-/* line 91, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
 #services img {
   display: inline-block;
   width: 10.5rem;
@@ -123,54 +79,34 @@ section hr {
   height: auto;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  -webkit-box-sizing-box-sizing: border-box;
+  box-sizing: border-box;
   padding: 2rem;
   background-color: #29abe2;
-  margin: 0;
-}
-
-/* line 103, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
-#services img.left {
-  float: left;
-  border-top-left-radius: 25%;
-  border-bottom-right-radius: 25%;
-}
-
-/* line 107, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
-#services img.right {
-  float: right;
-  border-bottom-left-radius: 25%;
-  border-top-right-radius: 25%;
-}
-
-/* line 111, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+  margin: 0; }
+  #services img.left {
+    float: left;
+    border-top-left-radius: 25%;
+    border-bottom-right-radius: 25%; }
+  #services img.right {
+    float: right;
+    border-bottom-left-radius: 25%;
+    border-top-right-radius: 25%; }
 #services .text-container {
   display: inline-block;
   width: 70%;
   font-size: 1.5rem;
   font-family: Arial;
-  margin-bottom: 3rem;
-}
-
-/* line 117, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
-#services .text-container p {
-  color: gray;
-}
-
-/* line 119, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
-#services .text-container.left {
-  float: right;
-  text-align: left;
-}
-
-/* line 122, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
-#services .text-container.right {
-  float: left;
-  text-align: right;
-}
+  margin-bottom: 3rem; }
+  #services .text-container p {
+    color: gray; }
+  #services .text-container.left {
+    float: right;
+    text-align: left; }
+  #services .text-container.right {
+    float: left;
+    text-align: right; }
 
 @media (max-width: 1100px) {
-  /* line 127, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
   #services img {
     float: none !important;
     display: block !important;
@@ -178,72 +114,50 @@ section hr {
     margin-right: auto !important;
     margin-top: 0;
     margin-bottom: 1rem;
-    border-radius: 25%;
-  }
-  /* line 133, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+    border-radius: 25%; }
   #services .text-container {
     float: none;
     text-align: center !important;
-    width: 100%;
-  }
-}
-
-/* line 141, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+    width: 100%; } }
 #why-us {
   background-image: url(../images/compressed/valley-min.jpg);
   background-position: left;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
-}
+  background-size: cover; }
+  #why-us .slide {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 2rem 0 2rem;
+    border-radius: 2rem;
+    width: 90%; }
+    #why-us .slide img {
+      display: block !important;
+      margin-left: auto !important;
+      margin-right: auto !important; }
+    #why-us .slide h4 {
+      text-align: center;
+      margin-bottom: 0;
+      font-family: krona, sans-serif;
+      font-size: 2rem;
+      color: black; }
 
-/* line 147, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
-#why-us .slide {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -webkit-box-sizing-box-sizing: border-box;
-  display: block !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  background-color: rgba(255, 255, 255, 0.7);
-  padding: 2rem 0 2rem;
-  border-radius: 2rem;
-  width: 90%;
-}
-
-/* line 154, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
-#why-us .slide img {
-  display: block !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
-
-/* line 156, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
-#why-us .slide h4 {
-  text-align: center;
-  margin-bottom: 0;
-  font-family: krona, sans-serif;
-  font-size: 2rem;
-  color: black;
-}
-
-/* line 163, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
 #webdev img {
   display: block !important;
   margin-left: auto !important;
   margin-right: auto !important;
-  margin-bottom: 2rem;
-}
-
-/* line 166, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+  margin-bottom: 2rem; }
 #webdev p {
   color: gray;
   text-align: center;
   margin-bottom: 4rem;
-  font-size: 1.5rem;
-}
+  font-size: 1.5rem; }
 
-/* line 171, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
 #online-presence {
   background-image: url(../images/compressed/canopy-min.jpg);
   background-position: center;
@@ -251,31 +165,19 @@ section hr {
   background-attachment: fixed;
   background-size: cover;
   color: white;
-  font-family: krona, sans-serif;
-}
+  font-family: krona, sans-serif; }
+  #online-presence .first {
+    font-size: 2rem; }
+  #online-presence .second {
+    font-size: 5rem;
+    margin-bottom: 0; }
+  #online-presence span {
+    color: #29abe2; }
 
-/* line 179, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
-#online-presence .first {
-  font-size: 2rem;
-}
-
-/* line 181, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
-#online-presence .second {
-  font-size: 5rem;
-  margin-bottom: 0;
-}
-
-/* line 184, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
-#online-presence span {
-  color: #29abe2;
-}
-
-/* line 187, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
 #portfolio .row {
-  margin-bottom: 4rem;
-}
-
-/* line 189, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+  margin-bottom: 4rem; }
+#portfolio .extra {
+  display: none; }
 #portfolio .date {
   width: 15%;
   background-color: #29abe2;
@@ -286,62 +188,36 @@ section hr {
   text-align: center;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  -webkit-box-sizing-box-sizing: border-box;
-  padding: 0.5rem;
-}
-
-@media (max-width: 1150px) {
-  /* line 189, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
-  #portfolio .date {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 2rem;
-  }
-}
-
-/* line 204, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+  box-sizing: border-box;
+  padding: 0.5rem; }
+  @media (max-width: 1150px) {
+    #portfolio .date {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 2rem; } }
 #portfolio h3 {
-  text-align: left;
-}
-
-/* line 206, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+  text-align: left; }
 #portfolio p {
   color: gray;
   margin-bottom: 0.7rem;
-  font-size: 1.4rem;
-}
-
-/* line 210, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+  font-size: 1.4rem; }
 #portfolio img {
   margin: 0;
   width: 85%;
-  float: right;
-}
-
-@media (max-width: 1150px) {
-  /* line 210, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
-  #portfolio img {
-    width: 100%;
-  }
-}
-
-/* line 217, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+  float: right; }
+  @media (max-width: 1150px) {
+    #portfolio img {
+      width: 100%; } }
 #portfolio a {
   font-family: krona, sans-serif;
   border-radius: 0;
   border-bottom-left-radius: 2rem;
   border-top-right-radius: 2rem;
-  background-color: #29abe2;
-}
-
-/* line 223, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
-#portfolio a:hover {
-  color: #29abe2;
-  background-color: white;
-  border-color: #29abe2;
-}
-
-/* line 227, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
+  background-color: #29abe2; }
+  #portfolio a:hover {
+    color: #29abe2;
+    background-color: white;
+    border-color: #29abe2; }
 #portfolio button {
   display: block !important;
   margin-left: auto !important;
@@ -354,145 +230,85 @@ section hr {
   font-size: 1.5rem;
   border-radius: 0;
   border-bottom-left-radius: 2rem;
-  border-bottom-right-radius: 2rem;
-}
+  border-bottom-right-radius: 2rem; }
+  #portfolio button:hover {
+    background-color: white;
+    color: #29abe2; }
+  @media (max-width: 600px) {
+    #portfolio button {
+      width: 75%; } }
+  @media (max-width: 470px) {
+    #portfolio button {
+      width: 90%; } }
+  @media (max-width: 400px) {
+    #portfolio button {
+      width: 100%; } }
 
-/* line 238, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
-#portfolio button:hover {
-  background-color: white;
-  color: #29abe2;
-}
-
-@media (max-width: 600px) {
-  /* line 227, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
-  #portfolio button {
-    width: 75%;
-  }
-}
-
-@media (max-width: 470px) {
-  /* line 227, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
-  #portfolio button {
-    width: 90%;
-  }
-}
-
-@media (max-width: 400px) {
-  /* line 227, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
-  #portfolio button {
-    width: 100%;
-  }
-}
-
-/* line 247, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
 #reach-out {
-  padding-bottom: 0;
-}
+  padding-bottom: 0; }
+  #reach-out #form-container {
+    background-image: url(../images/compressed/forestfog-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin-bottom: 0;
+    border-color: white; }
+    #reach-out #form-container form {
+      margin-bottom: 5rem; }
+      #reach-out #form-container form input, #reach-out #form-container form textarea {
+        font-family: krona, sans-serif;
+        border-radius: 0;
+        margin-bottom: 0.2rem; }
+        #reach-out #form-container form input:hover, #reach-out #form-container form input:active, #reach-out #form-container form input:focus, #reach-out #form-container form textarea:hover, #reach-out #form-container form textarea:active, #reach-out #form-container form textarea:focus {
+          border-color: white; }
+        #reach-out #form-container form input:hover, #reach-out #form-container form textarea:hover {
+          color: black; }
+          #reach-out #form-container form input:hover::-webkit-input-placeholder, #reach-out #form-container form textarea:hover::-webkit-input-placeholder {
+            color: black; }
+          #reach-out #form-container form input:hover::-moz-placeholder, #reach-out #form-container form textarea:hover::-moz-placeholder {
+            color: black; }
+          #reach-out #form-container form input:hover:-ms-input-placeholder, #reach-out #form-container form textarea:hover:-ms-input-placeholder {
+            color: black; }
+          #reach-out #form-container form input:hover:-moz-placeholder, #reach-out #form-container form textarea:hover:-moz-placeholder {
+            color: black; }
+      #reach-out #form-container form input[type="submit"] {
+        background-color: transparent;
+        border-color: white;
+        color: white;
+        display: block !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 100%;
+        margin-top: 0;
+        font-size: 1.5rem; }
+        #reach-out #form-container form input[type="submit"]:hover {
+          background-color: rgba(156, 163, 157, 0.5); }
+    #reach-out #form-container h6, #reach-out #form-container p {
+      color: white;
+      font-family: krona, sans-serif;
+      text-align: center; }
+    #reach-out #form-container h6 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem; }
+    #reach-out #form-container p {
+      font-size: 2.5rem; }
 
-/* line 249, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
-#reach-out #form-container {
-  background-image: url(../images/compressed/forestfog-min.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  margin-bottom: 0;
-  border-color: white;
-}
-
-/* line 259, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
-#reach-out #form-container form {
-  margin-bottom: 5rem;
-}
-
-/* line 261, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
-#reach-out #form-container form input, #reach-out #form-container form textarea {
-  font-family: krona, sans-serif;
-  border-radius: 0;
-  margin-bottom: 0.2rem;
-}
-
-/* line 265, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
-#reach-out #form-container form input:hover, #reach-out #form-container form input:active, #reach-out #form-container form input:focus, #reach-out #form-container form textarea:hover, #reach-out #form-container form textarea:active, #reach-out #form-container form textarea:focus {
-  border-color: white;
-}
-
-/* line 267, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
-#reach-out #form-container form input:hover, #reach-out #form-container form textarea:hover {
-  color: black;
-}
-
-/* line 270, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
-#reach-out #form-container form input:hover::-webkit-input-placeholder, #reach-out #form-container form textarea:hover::-webkit-input-placeholder {
-  color: black;
-}
-
-/* line 273, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
-#reach-out #form-container form input:hover::-moz-placeholder, #reach-out #form-container form textarea:hover::-moz-placeholder {
-  color: black;
-}
-
-/* line 276, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
-#reach-out #form-container form input:hover:-ms-input-placeholder, #reach-out #form-container form textarea:hover:-ms-input-placeholder {
-  color: black;
-}
-
-/* line 279, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
-#reach-out #form-container form input:hover:-moz-placeholder, #reach-out #form-container form textarea:hover:-moz-placeholder {
-  color: black;
-}
-
-/* line 281, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
-#reach-out #form-container form input[type="submit"] {
-  background-color: transparent;
-  border-color: white;
-  color: white;
-  display: block !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  width: 100%;
-  margin-top: 0;
-  font-size: 1.5rem;
-}
-
-/* line 289, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
-#reach-out #form-container form input[type="submit"]:hover {
-  background-color: rgba(156, 163, 157, 0.5);
-}
-
-/* line 291, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
-#reach-out #form-container h6, #reach-out #form-container p {
-  color: white;
-  font-family: krona, sans-serif;
+#status {
   text-align: center;
-}
+  color: black;
+  font-size: 1.5rem; }
 
-/* line 295, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
-#reach-out #form-container h6 {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-}
-
-/* line 298, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
-#reach-out #form-container p {
-  font-size: 2.5rem;
-}
-
-/* line 300, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
 footer {
   text-align: center;
   color: black;
   font-family: krona, sans-serif;
   margin-top: 2rem;
-  margin-bottom: 2rem;
-}
+  margin-bottom: 2rem; }
+  footer h1 {
+    font-size: 1.2rem;
+    margin: 0; }
 
-/* line 306, C:/Users/Fernando/Desktop/PathfindersIT/pathfinders/sass/main.sass */
-footer h1 {
-  font-size: 1.2rem;
-  margin: 0;
-}
-
-/*# sourceMappingURL=../css/main.map */
+/*# sourceMappingURL=main.css.map */
